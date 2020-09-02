@@ -19,7 +19,7 @@ def long_planeteer_calls(planeteer_calls)
   # Return the boolean result of this check
   
   planeteer_calls.select do |call|
-    call.length < 5
+    call.length < 5 = true
   end
 end
 
