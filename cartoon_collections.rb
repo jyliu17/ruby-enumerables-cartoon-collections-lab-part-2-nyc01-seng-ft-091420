@@ -20,7 +20,7 @@ def long_planeteer_calls(planeteer_calls)
   
   planeteer_calls.select do |call|
     call.length < 5 
-    call = true
+    
   end
 end
 
